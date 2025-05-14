@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>UI-Product_Card</title>
+    <link rel="stylesheet" href="./productCard.css" />
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" />
+</head>
+
+<body id="body">
+
+    <div class="topbar" id="topbar">
+            <h2>User-Interface Product-Cart</h2>
+            <div class="topbarbtn">
+                <button onclick="darkmode()">Dark Mode</button>
+                <button onclick="lightmode()">Light Mode</button>
+            </div>
+    </div>
+
+
+    <div class="section">
+        <div class="section-content" id="section-content">
+
+            <div class="material">
+
+                <!-- ===================== -->
+                <!-- ===================== -->
+                <div class="single-image">
+                    <img src="./images/earbug-f9-m5 (1).jpg" alt="earbugs-f9-m5">
+                </div>
+                <!-- ===================== -->
+                <!-- ===================== -->
+
+                <div class="data">
+
+                    <!-- ===================== -->
+                    <div class="description">
+                        <p class="handsfree">Handsfree</p>
+                        <h3>F9-5 TWS Bluetooth 5.0 Earbuds 3D Smart Touch Control HIFI Music
+                            LED Display Wireless Earphone with Charging Box </h3>
+                    </div>
+                    <!-- ===================== -->
+
+
+
+                    <!-- ===================== -->
+                    <p class="stock" id="stock">Availibity: <span>10 in stock</span></p>
+                    <hr class="hr" />
+
+                    <div class="pricing">
+                        <h3>Rs. 1,599</h3>
+                        <p><del> Rs. 2,599 </del></p>
+                    </div>
+                    <!-- ===================== -->
+
+
+
+                    <!-- ===================== -->
+                    <label class="quantity">Quantity</label>
+                    <button onclick="increase()" class="btn-quantity">+</button>
+                    <label id="count"> </label>
+                    <button onclick="decrease()" class="btn-quantity">-</button>
+                    <!-- ===================== -->
+
+
+                    <!-- ===================== -->
+                    <div class="btn">
+                        <button class="buynow" onclick="buynow()">Buy Now</button>
+                        <button class="addtocart" onclick="addtocart()">Add to Cart</button>
+                    </div>
+                    <!-- ===================== -->
+
+
+                </div>
+            </div>
+
+
+            <!-- ===================== -->
+            <!-- ===================== -->
+            <!-- ===================== -->
+
+            <div class="multi-images">
+                <img src="./images/earbug-f9-m5 (1).jpg" alt="earbug-f9-m5" />
+                <img src="./images/earbug-f9-m5 (2).jpg" alt="earbug-f9-m5" />
+                <img src="./images/earbug-f9-m5 (3).jpg" alt="earbug-f9-m5" />
+            </div>
+
+            <!-- ===================== -->
+            <!-- ===================== -->
+            <!-- ===================== -->
+            <!-- ===================== -->
+
+        </div>
+    </div>
+
+    <!-- ===================== -->
+    <!-- ===================== -->
+    <!-- ===================== -->
+    <!-- ===================== -->
+
+
+    <div class="target" id="target">
+        <a href="https://api.whatsapp.com/send/?phone=92441294070&text&type=phone_number&app_absent=0"
+            target="_blank">Design by: Hafiz Anas | +92 441294070 </a>
+        <br>
+        <a href="">Not Responsive</a>
+    </div>
+
+
+
+</body>
+<script src="./productCard.js"></script>
+
+</html>

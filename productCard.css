@@ -1,0 +1,203 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(243, 243, 243);
+    font-family: "montserrat";
+    
+    
+}
+
+
+/* =====================================
+=====================================
+===================================== */
+
+.topbar{
+    background-color: green;
+    text-align: center;
+    padding: 10px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.topbarbtn button{
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background: orange;
+    color: black;
+    margin: 5px;
+}
+.topbar h2{
+    margin: 0;
+}
+
+/* =====================================
+=====================================
+===================================== */
+
+.section{
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-content{
+    width: 700px;
+    height: 400px;
+    background-color: white;
+    padding: 30px;
+    border-radius: 7px;
+    box-shadow: 5px 5px 10px rgb(185, 185, 185);
+}
+
+/* =====================================
+=====================================
+===================================== */
+.single-image img{
+    width: 325px;
+    height: 325px;
+    margin-right: 30px;
+    cursor: pointer;
+}
+/* =====================================
+=====================================
+===================================== */
+
+.material{
+    display: flex;
+}
+
+/* =====================================
+=====================================
+===================================== */
+
+.description h3{
+    margin: 0;
+    font-weight: bol;
+    font-size: 21px;
+    margin-bottom: 25px;
+}
+.handsfree{
+    margin: 0;
+    color: gray;
+    margin-bottom: 5px;
+}
+
+.stock{
+    color: black;
+    margin-bottom: 20px;
+}
+.stock span{
+    color: green;
+    font-weight: bolder;
+}
+
+.hr{
+    margin-bottom: 5px;
+}
+
+.pricing{
+    display: flex;
+    align-items: center;
+}
+.pricing h3{
+    margin: 0;
+    margin-right: 10px;
+    font-weight: bolder;
+}
+
+.pricing p{
+    color: gray;
+}
+
+
+/* =====================================
+=====================================
+===================================== */
+
+#count{
+    /* margin: 10px; */
+    padding: 10px;
+    font-weight: bold;
+    position: relative
+    
+}
+
+.btn-quantity {
+    
+    /* margin-left: 10px; */
+    width: 40px;
+    background-color: lightgray;
+    color: white;
+    font-weight: bold;
+    font-size: larger;
+    border: none;
+    border-radius: 3px;
+    padding: 2px;
+    cursor: pointer;
+}
+
+/* =====================================
+=====================================
+===================================== */
+
+.btn{
+    margin-top: 15px;
+    width: 350px;
+    /* border: 2px solid black; */
+}
+
+.buynow{
+    width: 170px;
+    padding: 10px;
+    color: black;
+    background-color: orange;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.addtocart{
+    width: 170px;
+    padding: 10px;
+    color: white;
+    background-color: green;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+/* =====================================
+=====================================
+===================================== */
+.multi-images{
+    margin-top: 5px;
+    display: flex;
+}
+.multi-images img{
+    margin-right: 5px;
+    width: 75px;
+    height: 70px;  
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+/* =====================================
+=====================================
+===================================== */
+
+.target{
+    margin: 20px;
+    text-align: center;
+}
+.target a{
+    color: gray;
+    text-decoration: none;
+}
+.target a:hover{
+    color: green;
+}
